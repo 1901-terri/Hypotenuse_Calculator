@@ -1,103 +1,75 @@
-Hypotenuse Calculator (C#)
+# Hypotenuse Calculator (C# Console Application)
 
-A simple console-based hypotenuse calculator built with C#.
-This application calculates the length of the hypotenuse of a right-angled triangle using the Pythagorean Theorem.
+A simple command-line application written in C# that calculates the hypotenuse of a right-angled triangle using the Pythagorean Theorem.
 
-📌 Description
+This project demonstrates basic C# concepts, including user input, data type conversion, mathematical operations, and console output.
 
-This program runs in the Command Line Interface (CLI) and allows the user to:
+---
 
-Enter the length of Side A
+## 📌 Overview
+The Hypotenuse Calculator prompts the user to enter the lengths of two sides of a right-angled triangle (Side A and Side B). It then calculates and displays the length of the hypotenuse (Side C).
 
-Enter the length of Side B
-
-Automatically calculate the hypotenuse (Side C)
-
-The formula used:
-
+**Formula used:**
 c = √(a² + b²)
 
-The program then displays the calculated hypotenuse in the console.
 
-🛠 Technologies Used
+---
 
-C#
+## 🛠 Technologies Used
+- C#
+- .NET Console Application
+- System Namespace
+- `Math.Sqrt()` method
 
-.NET Console Application
+---
 
-System Namespace
+## ▶️ How It Works
+1. Program starts and displays a title message.  
+2. User is prompted to enter the value for Side A.  
+3. User is prompted to enter the value for Side B.  
+4. Program calculates the hypotenuse using the Pythagorean Theorem.  
+5. Result is displayed in the console.  
+6. Application waits for a key press before closing.  
 
-Math.Sqrt() method
+---
 
-▶️ How It Works
+## 🚀 How to Run the Application
 
-The program starts and displays a title message.
+### Option 1: Using Visual Studio
+- Open the project in Visual Studio.  
+- Build the solution.  
+- Press **F5** or click **Start** to run the application.  
+- Enter the requested values in the console window.  
 
-The user is prompted to enter Side A.
+### Option 2: Using the .NET CLI
+- Open a terminal in the project directory.  
+- Run the following command:  
+  ```bash
+  dotnet run
+---
 
-The user is prompted to enter Side B.
-
-The program calculates:
-
-c = Math.Sqrt((a * a) + (b * b));
-
-The hypotenuse value is displayed.
-
-The program waits for a key press before closing.
-
-🚀 How to Run
-Using Visual Studio
-
-Open the project in Visual Studio.
-
-Click Start or press F5.
-
-Enter the values when prompted in the console.
-
-Using .NET CLI
-
-Open a terminal in the project directory.
-
-Run:
-
-dotnet run
-
-Enter the requested values.
-
-💻 Example Output
-Hypotenuse Calculator by Terri :)
-
-Enter Side A:
-3
-
-Enter Side B:
-4
-
-The Hypotenuse is 5
-📂 Project Structure
+## Program Structure
 Hypotenuse_Calculator/
 │
 └── Program.cs
-📖 Mathematical Concept
 
-This program is based on the Pythagorean Theorem, which states:
+--- 
 
-In a right-angled triangle,
-The square of the hypotenuse equals the sum of the squares of the other two sides.
+## 📖 Mathematical Background
+This application is based on the Pythagorean Theorem, which states:
+In a right-angled triangle, the square of the hypotenuse is equal to the sum of the squares of the other two sides.
+ 
+---
+ 
+## 🔧 Possible Future Improvements
+- Implement input validation to prevent non-numeric entries
+- Format the output to a fixed number of decimal places
+- Allow multiple calculations without restarting the program
+- Add exception handling
+- Expand the application into a graphical user interface (GUI)
 
-🔮 Possible Improvements
+--- 
 
-Add input validation (prevent non-numeric input)
-
-Format output to a specific number of decimal places
-
-Allow multiple calculations without restarting the program
-
-Add exception handling
-
-Convert to a GUI application (Windows Forms or WPF)
-
-👩‍💻 Author
-
+## 👩‍💻 Author
 Terri-Lee Gounder
-C# Console Application Project
+
